@@ -1,0 +1,29 @@
+# ----------------------------
+# Core Dependencies
+# ----------------------------
+
+pandas        # Data analysis and handling tabular data (CSV read/write, preprocessing)
+requests      # Fetch live news data from APIs (NewsAPI in our case)
+python-dotenv # Load API keys and environment variables securely from .env file
+
+# ----------------------------
+# NLP (Natural Language Processing)
+# ----------------------------
+
+nltk          # Tokenization, stopwords, and preprocessing for text cleaning & summarization
+textblob      # Lightweight NLP for sentiment analysis (positive / neutral / negative classification)
+
+# ----------------------------
+# Visualisation
+# ----------------------------
+
+matplotlib    # Plotting graphs (bar chart, pie chart, line chart, etc.)
+wordcloud     # Generate word clouds from text summaries
+
+# ----------------------------
+# Notes:
+# Run the following once in Python to download NLTK resources:
+# >>> import nltk
+# >>> nltk.download("punkt")
+# >>> nltk.download("stopwords")
+# ----------------------------
