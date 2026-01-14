@@ -22,7 +22,8 @@ APIs: NewsAPI
 
 Libraries: pandas, nltk, textblob, matplotlib, wordcloud, requests, dotenv
 
-🧩 Project Pipeline
+## 🧩 Project Pipeline
+```text
 ┌────────────────────────┐
 │ 1️⃣ live_news_fetch.py  │ → Fetch last 1-month news via API
 └────────────┬───────────┘
@@ -41,6 +42,7 @@ Libraries: pandas, nltk, textblob, matplotlib, wordcloud, requests, dotenv
 ┌────────────────────────┐
 │ 4️⃣ visualise.py        │ → Generate topic graphs & word cloud
 └────────────────────────┘
+```
 
 📁 File Descriptions
 📰 live_news_fetch.py
