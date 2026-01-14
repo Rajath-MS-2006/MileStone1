@@ -124,13 +124,15 @@ news_raw.csv	Raw fetched articles
 news_clean.csv	Cleaned text data
 news_summary.csv	Summaries + sentiment
 Visual Outputs	Charts & word clouds displayed via Matplotlib
-🌟 Insights You Get
+
+## 🌟 Insights You Get
 
 ✅ Trending topics in your industry
 ✅ Most active news sources
 ✅ Positive / Negative media sentiment trends
 ✅ Keyword clusters (WordCloud)
-🧩 Requirements Summary
+
+## 🧩 Requirements Summary
 
 All dependencies are listed in requirements.txt:
 
